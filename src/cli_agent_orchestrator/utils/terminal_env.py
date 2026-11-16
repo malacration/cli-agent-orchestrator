@@ -1,6 +1,6 @@
 """Environment policy shared by every terminal backend.
 
-A backend (tmux, herdr) builds the environment of a terminal it launches from
+A backend (tmux, herdr, herdr-app) builds the environment of a terminal it launches from
 layers merged in a fixed order:
 
 1. operator-forwarded env (``cao launch --env`` / the API's ``env_vars``),
